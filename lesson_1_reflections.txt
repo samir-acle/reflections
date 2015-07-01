@@ -1,0 +1,49 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+narrowed down code to just the lines that were different, making it a whole lot
+easier and quicker to spot the typo that caused the bug
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+without hacing to save multiple versions, it would save time and allow you to work
+on more important task, like the actual coding, without any confusion as to which
+file is the most recent. after any coding changes, if the program loses functionality
+or causes errors, you could easily check older versions to find the changes and
+correct any mistakes.  it would also make it easier to compare different designs
+to determine the best solution.
+
+What do you think are the pros and cons of manually choosing when to create a commit,
+like you do in Git, vs having versions automatically saved, like Google docs does?
+
+pros- less cluttered, easier to understand the changes in each version, easy to find
+the right version you need, can choose when to save as it makes sense
+
+cons- might choose to commit at wrong times, guaranteed multiple versions if it is
+automatically done
+
+Why do you think some version control systems, like Git, allow saving multiple files in one
+commit, while others, like Google Docs, treat each file separately?
+
+the main function of different version control systems are different - git is obviously meant
+for code, in which saving multiple files makes sense since many files are connected and necessary
+for programs to run.  google docs, on the otherhand, is meant for excel and word docs, which
+usually are not connected.
+
+How can you use the commands git log and git diff to view the history of files?
+
+by entering the command git log, the console outputs a list with commit ids and commit
+messages.  you can use this to find the commit id for the versions you are looking for
+using the commit message to understand what changes were made between versions.  git diff
+allows you to compare two versions to find what changed (color codes red as removed and green
+as added).  command git diff id1 id 2, with id1 being the older version.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I will use git to while writing code for projects to save versions before making any changes to
+functionality and/or design.  this will help me compare multiple solutions to problems without having
+to create a bunch of different files on my computer.
+
+
+
