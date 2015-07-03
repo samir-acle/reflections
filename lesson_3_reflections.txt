@@ -3,3 +3,8 @@ When would you want to use a remote repository rather than keeping all your work
 working on project with multiple contributors
 using multiple computers to complete work
 want your progress to be visible to the public
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+manually pulling changes will allow users to only pull when they want to. if there are multiple contributors, it allows for separation of work.
+
