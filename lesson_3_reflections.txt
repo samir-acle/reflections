@@ -34,3 +34,6 @@ google drive and have collaborators permissions read/write.  this works well whe
 is also a little easier to use and would make collaborating quicker; however, it is not good to use when the project has multiple files
 that are all linked together, like in a website.
 
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+if you want other collaborators to review your code before making the change to master
