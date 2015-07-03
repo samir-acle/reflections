@@ -7,7 +7,7 @@ easier and quicker to spot the typo that caused the bug
 How could having easy access to the entire history of a file make you a more
 efficient programmer in the long term?
 
-without hacing to save multiple versions, it would save time and allow you to work
+without having to save multiple versions, it would save time and allow you to work
 on more important task, like the actual coding, without any confusion as to which
 file is the most recent. after any coding changes, if the program loses functionality
 or causes errors, you could easily check older versions to find the changes and

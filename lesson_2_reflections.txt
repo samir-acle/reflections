@@ -11,3 +11,26 @@ all files- those tracked and those not.  it precedes the repository which holds 
 tracked - once the user decides to commit them.  It offers value in that you can start adding files to the staging area
 once they are ready to be commited, while you work on others which you want included in the commit.  it allows for more
 flexibility in when you choose to commit and better organization of which files are ready by using git status.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can add files to staging area one at a time, so you do not need to commit all changes made at the same time.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+adding new feature, changing design, making experimental changes that you are not sure will work out.  adding branches
+will allow you to keep a master for demonstration purposes or just to keep it separate.
+
+How do the diagrams help you visualize the branch structure?
+
+the diagrams make it easy to see the reachability and parent/child relationship of all the commits.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+merging two branches combines the tip of both branches into one commit.  changes made from the originl commit (in both branches)
+will be included in the merged file.  represent in diagram since both branches are parents to the new commit.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+automatic merging - good if both users working on different fetures/section of code, not so good if working on same
+part of code
