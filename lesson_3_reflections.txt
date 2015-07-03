@@ -26,3 +26,11 @@ What is the benefit of having a copy of the last known state of the remote store
 if want to compare changes on the remote to updates you made locally, without commiting to the changes.
 give you a chance to review the differences offline, before merging the branches together
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+I would save different versions of files, with different suffixes with version number, modifier, etc. and send those to each other
+this would make it super hard to find and compare changes or fix errors.  another option that i have used in the past is using dropbox,
+google drive and have collaborators permissions read/write.  this works well when there are not too many files you are working on.  this
+is also a little easier to use and would make collaborating quicker; however, it is not good to use when the project has multiple files
+that are all linked together, like in a website.
+
