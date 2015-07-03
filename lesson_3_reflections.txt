@@ -25,3 +25,4 @@ What is the benefit of having a copy of the last known state of the remote store
 
 if want to compare changes on the remote to updates you made locally, without commiting to the changes.
 give you a chance to review the differences offline, before merging the branches together
+
